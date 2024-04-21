@@ -4,17 +4,17 @@ Created on Fri Nov  6 19:15:41 2020
 
 @author: shu_chun_yang
 
-Yolo_v3切割狗鼻影像
+Yolo_v3 for dog noseprint detection
 """
 
 import subprocess
-#from subprocess import CREATE_NO_WINDOW # 不顯示操作視窗
+#from subprocess import CREATE_NO_WINDOW # 
 import os 
 import re
 import shutil 
 from PIL import Image
 
-yolo="E:/專題研究資料/楊舒淳/darknet_模板1_200409/darknet/darknet-master/build/darknet/x64/"
+yolo="path/file"
 
 ## 切割狗鼻影像
 def nose_all(source):
